@@ -10,9 +10,4 @@ xhofe/alist:latest
 # 支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
 
-# Docker和YUM镜像示例
-# Docker镜像
-docker.io/library/docker:20.10.7
 
-# YUM镜像
-centos:8
