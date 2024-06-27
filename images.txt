@@ -1,6 +1,18 @@
+# 默认添加latest标签的镜像
 nginx
-#支持私库
+
+# 指定版本的镜像
 k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
+
+# 指定latest标签的镜像
 xhofe/alist:latest
-#支持指定架构
+
+# 支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
+
+# Docker和YUM镜像示例
+# Docker镜像
+docker.io/library/docker:20.10.7
+
+# YUM镜像
+centos:8
