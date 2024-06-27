@@ -1,13 +1,5 @@
 # 默认添加latest标签的镜像
 nginx
 
-# 指定版本的镜像
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-
-# 指定latest标签的镜像
-xhofe/alist:latest
-
-# 支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
 
 
